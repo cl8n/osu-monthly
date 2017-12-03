@@ -12,7 +12,9 @@ html {
 
 body {
   width: 800px;
-  margin: auto;
+  margin: 0;
+  justify-self: center;
+  align-self: center;
 }
 
 p {
