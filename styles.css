@@ -68,3 +68,9 @@ a:hover {
   float: right;
   text-align: right;
 }
+
+#releases div:after {
+  content: '';
+  clear: both;
+  display: block;
+}
