@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,300i,500,500i');
 
 @-ms-viewport {
   width: device-width;
@@ -12,6 +12,7 @@ body {
 .content {
   max-width: 80vw;
   font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
   font-size: 16px;
   color: #FFF;
   text-align: center;
@@ -45,7 +46,8 @@ a {
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
