@@ -95,6 +95,11 @@ a:hover {
   padding-left: 1em;
 }
 
+#staff .members img {
+  height: 1em;
+  margin-left: 1em;
+}
+
 .role-lead {
   color: rgb(231, 76, 60);
   font-weight: 500;
