@@ -59,6 +59,10 @@ a:hover {
   padding-bottom: 1em;
 }
 
+.section:last-child {
+  padding-bottom: 0;
+}
+
 .left {
   float: left;
   text-align: left;
