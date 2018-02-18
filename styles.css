@@ -10,20 +10,13 @@ body {
 }
 
 .content {
-  max-width: 80vw;
+  max-width: 65%;
   font-family: 'Exo 2', sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #FFF;
   text-align: center;
   margin: 1em auto;
-}
-
-@media only screen and (min-width: 1000px) {
-  .content {
-    max-width: 800px;
-    font-size: 20px;
-  }
 }
 
 img {
@@ -100,39 +93,185 @@ a:hover {
   margin-left: 1em;
 }
 
-.role-lead {
-  color: rgb(231, 76, 60);
-  font-weight: 500;
+.profile-panel {
+  display:inline-block;
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding: 0px;
+  margin: 1rem;
+  width: 270px;
+  height: 400px;
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.3));
 }
 
-.role-artist {
-  color: rgb(155, 89, 182);
+.profile-top {
+  border-radius: 10px 10px 0px 0px;
+  height: 57.5%;
+  width: 100%;
+  background: rgb(233, 30, 99);
+  background-image: url("imgs/profile-circles-15.png");
+  background-size: 120% auto;
+  background-position: 50% 68.5%;
 }
 
-.role-writer {
-  color: rgb(46, 204, 113);
+.profile-content {
+  height: 35%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-size: 16px;
+  background: white;
+  /* Slight shadow from the middle part of profile panel: filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.3));*/
 }
 
-.role-designer {
-  color: rgb(233, 30, 99);
+.profile-bottom {
+  border-radius: 0px 0px 10px 10px;
+  height: 7.5%;
+  width: 100%;
+  font-size: 16px;
+  background: white;
 }
 
-.role-editor {
-  color: rgb(241, 196, 15);
+.profile-text {
+  color: #666;
+  padding-top: 13px;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: block;
 }
 
-.role-developer {
-  color: rgb(52, 152, 219);
+.profile-username {
+  display: block;
+  font-size: 24px;
+  margin-top: 0.4em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+  filter: drop-shadow(.1rem .3rem 0.05rem rgba(0, 0, 0, 0.3));
 }
 
-.role-entertainment {
-  color: rgb(230, 126, 34);
+.profile-img {
+  padding-top: 9.5%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  filter: drop-shadow(.1rem .3rem 0.05rem rgba(0, 0, 0, 0.3));
 }
 
-.role-scorewatch {
-  color: rgb(153, 45, 34);
+.profile-social{
+  padding-top:3px;
+  max-height: 80%
 }
 
-.role-events {
-  color: rgb(26, 188, 156);
+.profile-flag {
+  max-height: 0.75em;
+  position:relative;
+  margin-right:10px;/* can be usefull*/
+  z-index: -1;
+}
+
+.profile-role {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 0.9rem;
+  color:white;
+  filter: drop-shadow(0 0 0.1rem rgba(0, 0, 0, 0.1));
+}
+
+.lead {
+  background-color: rgb(231, 76, 60);
+}
+
+.artist {
+  background-color: rgb(155, 89, 182);
+}
+
+.writer {
+  background-color: rgb(46, 204, 113);
+}
+
+.designer {
+  background-color: rgb(233, 30, 99);
+}
+
+.editor {
+  background-color: rgb(241, 196, 15);
+}
+
+.developer {
+  background-color: rgb(52, 152, 219);
+}
+
+.entertainment {
+  background-color: rgb(230, 126, 34);
+}
+
+.scorewatch {
+  background-color: rgb(153, 45, 34);
+}
+
+.events {
+  background-color: rgb(26, 188, 156);
+}
+
+.btn {
+  display:inline-block;
+  height: 2.3rem;
+  width: 16rem;
+  font-size: 1rem;
+  border-radius: 7px;
+  margin: 10px;
+  transition: color 0.2s;
+  padding-top: 1rem;
+  background-image: url("imgs/btnOverlay.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn-blue {
+  background-color: rgb(0, 170, 255);
+  filter: drop-shadow(0 0.2rem 0.1rem rgb(0,85,128));
+}
+
+.btn-blue:hover {
+  background-color: rgb(64, 190, 255);
+}
+
+.btn-green {
+  background-color: rgb(90, 200, 0);
+  filter: drop-shadow(0 0.2rem 0.1rem rgb(45, 100, 0));
+}
+
+.btn-green:hover {
+  background-color: rgb(128, 200, 64);
+}
+
+.btn-pink {
+  background-color: rgb(230, 0, 140);
+  filter: drop-shadow(0 0.2rem 0.1rem rgb(115,0,70));
+}
+
+.btn-pink:hover {
+  background-color: rgb(245, 64, 180);
+}
+
+.triangle-box {
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 1.4em;
+  border-radius: 10px;
+  padding: 12px;
+  max-width:500px;
+  background-color: white;
+  background-image: url("imgs/button.svg");
+  background-blend-mode: multiply;
+  background-size:cover;
+  color: #666
 }
