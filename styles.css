@@ -147,7 +147,7 @@ a:hover {
   transition: color 0.2s;
   padding-top: 1rem;
   background-image: url("imgs/btnOverlay.png");
-  background-size: 80% auto;
+  background-size: 95% auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
