@@ -189,7 +189,7 @@ a:hover {
   font-size: 1.15em;
   border-radius: 10px;
   padding: 12px;
-  max-width:500px;
+  max-width:80%;
   background-color: white;
   background-image: url("imgs/button.svg");
   background-blend-mode: multiply;
