@@ -136,3 +136,64 @@ a:hover {
 .role-events {
   color: rgb(26, 188, 156);
 }
+
+.btn {
+  display:inline-block;
+  height: 2.3rem;
+  width: 16rem;
+  font-size: 1rem;
+  border-radius: 7px;
+  margin: 10px;
+  transition: color 0.2s;
+  padding-top: 1rem;
+  background-image: url("imgs/btnOverlay.png");
+  background-size: 95% auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn-blue {
+  background-color: rgb(0, 170, 255);
+  filter: drop-shadow(0 0.2rem 0.1rem rgb(0,85,128));
+}
+
+.btn-blue:hover {
+  background-color: rgb(64, 190, 255);
+}
+
+.btn-green {
+  background-color: rgb(90, 200, 0);
+  filter: drop-shadow(0 0.2rem 0.1rem rgb(45, 100, 0));
+}
+
+.btn-green:hover {
+  background-color: rgb(128, 200, 64);
+}
+
+.btn-pink {
+  background-color: rgb(230, 0, 140);
+  filter: drop-shadow(0 0.2rem 0.1rem rgb(115,0,70));
+}
+
+.btn-pink:hover {
+  background-color: rgb(245, 64, 180);
+}
+
+.triangle-box {
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 1.15em;
+  border-radius: 10px;
+  padding: 12px;
+  max-width:80%;
+  background-color: white;
+  background-image: url("imgs/textBox.png");
+  background-blend-mode: multiply;
+  background-size:cover;
+  color: #666
+}
