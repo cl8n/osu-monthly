@@ -115,10 +115,6 @@ a:hover {
   color: rgb(241, 196, 15);
 }
 
-.role-developer {
-  color: rgb(52, 152, 219);
-}
-
 .role-entertainment {
   color: rgb(230, 126, 34);
 }
@@ -129,4 +125,8 @@ a:hover {
 
 .role-events {
   color: rgb(26, 188, 156);
+}
+
+.role-alumni {
+  color: rgb(153, 170, 181);
 }
