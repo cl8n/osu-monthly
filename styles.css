@@ -32,7 +32,6 @@ img {
 
 p {
   text-align: justify;
-  text-align-last: center;
 }
 
 a {
@@ -51,6 +50,10 @@ a:hover {
 .section {
   border-top: 2px solid #FFF;
   padding-bottom: 1em;
+}
+
+.section > :first-child {
+  text-align: center;
 }
 
 .section:last-child {
