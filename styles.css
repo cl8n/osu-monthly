@@ -67,7 +67,7 @@ a:hover {
   text-align: right;
 }
 
-#releases > div:after {
+.releases > div:after {
   content: '';
   clear: both;
   display: block;
